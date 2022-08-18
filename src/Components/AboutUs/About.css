@@ -1,0 +1,116 @@
+.aboutWrapper {
+    padding-top: 5%;
+}
+
+.aboutHeader {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-image: url('../Assets/aboutImages.jpg');
+}
+
+.aboutHeader h1 {
+    color: white;
+    padding: 10%;
+}
+
+.whoIsOurUser h1
+{
+    text-align: center;
+    padding: 3%;
+}
+
+.aboutCardStyle
+{
+    width: 18rem;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 20%);
+    background-image: none;
+    color: #111111;
+    background-color: #ffffff;
+    z-index: -20 !important;
+    margin-bottom: 10%;
+    border-radius: unset;
+}
+
+.secondCardSection
+{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.secondFirstCol
+{
+    padding: 3%;
+}
+.secondFirstCol h4
+{
+    padding: 3% !important;
+}
+.secondFirstCol h1
+{
+    text-align: left !important;
+}
+.thirdSectionInAbout
+{
+    margin-bottom: 10%;
+}
+.secondh1
+{
+    font-size: 24px;
+}
+.styleColorForText
+{
+    color: #f989d5 !important;
+}
+.firstImages
+{
+    width: 100%;
+    padding: 1%;
+    border: 1px solid #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.firstImages1
+{
+    width: 100%;
+    margin-top: 6.5%;
+}
+.fourthSectionInAbout
+{
+    width: 100%;
+    height: 250px;
+}
+.fifthSentralFrame
+{
+    margin-top: 5.5%;
+    width: 100%;
+    height: auto;
+    background-color: #edece6;
+}
+.aboutBtn
+{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+/* Start Media Query */
+@media screen and (max-width: 480px) {
+    .aboutWrapper {
+        padding-top: 15%;
+    }
+    .fifthSentralFrame
+    {
+        margin-left: 2%;
+    }
+    .fifthSentralFrame button
+    {
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+
+    .aboutHeader {
+        width: 100%;
+        height: 100px;
+    }
+    .card
+    {
+        margin-left: 10%;
+    }
+}

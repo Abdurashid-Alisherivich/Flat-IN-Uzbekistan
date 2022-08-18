@@ -1,0 +1,33 @@
+.landlordWrapper {
+    padding: 10%;
+}
+
+.landlordH1 {
+    text-align: center;
+}
+
+.imgUploaderLord {
+    margin-left: 40%;
+    padding: 4%;
+}
+
+.textAreaHeightLord {
+    height: 150px;
+}
+
+.ogohlantirishTextLord {
+    color: red;
+    text-align: center;
+}
+
+/* Start Media Query */
+@media screen and (max-width: 480px) {
+    .landlordWrapper {
+        padding-top: 20%;
+    }
+
+    .imgUploaderLord {
+        margin-left: 25%;
+        padding: 4%;
+    }
+}

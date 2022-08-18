@@ -1,0 +1,33 @@
+.logoCom
+{
+    width: 10%px;
+    height: 40px;
+}
+.linkTextDecNone
+{
+    text-decoration: none !important;
+    color: black;
+    margin-left: 12px;
+}
+
+.navbarSticyRes
+{
+    position: fixed !important;
+    width: 100%;
+    z-index: 50 !important;
+}
+
+.btnOqQora
+{
+    color: blue !important;
+}
+
+
+.shadow-0 .dropdown-toggle
+{
+    color: #ffffff;
+}
+.registrNavbar
+{
+    margin-left: 0.5%;
+}

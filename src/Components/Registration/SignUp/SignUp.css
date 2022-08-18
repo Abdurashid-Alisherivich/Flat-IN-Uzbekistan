@@ -1,0 +1,55 @@
+.signUpWrapper
+{
+    width: 60%;
+    margin-left: 25%;
+    padding-top: 8%;
+}
+
+.signUpInputStyle
+{
+    z-index: -200;
+    width: 100%;
+    display: block;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+.input-group
+{
+    position: unset !important;
+}
+
+.signUpBtn
+{
+    position: absolute !important;
+    z-index: 0 !important;
+}
+
+.input-group .btn
+{
+    position: unset !important;
+    z-index: 0 !important;
+}
+
+.accountBor
+{
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: center;
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Media Query Start */
+@media screen and (max-width: 480px) {
+    .signUpWrapper
+    {
+        width: 60%;
+        margin-left: 15%;
+        padding-top: 25%;
+    }
+    
+  }
